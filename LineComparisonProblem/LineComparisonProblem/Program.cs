@@ -9,7 +9,7 @@ namespace LineComparisonProblem
             Console.WriteLine("==========Welcome To Line Comparison Computation Program==========");
             LineLength length = new LineLength();
             length.CalculateLength(); //Call The Methods
-            length.CheckEquality();
+            length.CompareTwoLines(); //Call The Methods
             Console.ReadLine();
         }
     }
